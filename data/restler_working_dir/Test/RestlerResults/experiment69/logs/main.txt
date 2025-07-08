@@ -1,0 +1,621 @@
+Random seed: 12345
+Setting fuzzing schemes: directed-smoke-test
+2025-07-08 13:32:47.760: Going to fuzz a set with 27 requests
+2025-07-08 13:32:47.760: Request-0: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-1: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-2: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-3: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-4: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-5: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-6: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-7: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-8: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-9: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-10: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-11: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-12: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-13: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-14: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-15: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-16: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-17: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-18: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-19: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-20: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-21: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-22: Value Combinations: 5
+2025-07-08 13:32:47.760: Request-23: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-24: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-25: Value Combinations: 2
+2025-07-08 13:32:47.760: Request-26: Value Combinations: 2
+2025-07-08 13:32:47.760: Avg. Value Combinations per Request: 2.111111111111111
+2025-07-08 13:32:47.760: Median Value Combinations per Request: 2
+2025-07-08 13:32:47.760: Min Value Combinations per Request: 2
+2025-07-08 13:32:47.760: Max Value Combinations per Request: 5
+2025-07-08 13:32:47.760: Total dependencies: 0
+
+2025-07-08 13:32:47.761: Generation: 1 / Sequences Collection Size: 27 
+(After directed-smoke-test Extend)
+
+Rendering request 0 from scratch
+
+2025-07-08 13:32:47.800: Request 0
+2025-07-08 13:32:47.800: Endpoint - /api/connect-four/games/{gameId}/abort
+2025-07-08 13:32:47.800: Hex Def - 0caf1113c3cd07bf406edb307d6e5671fc5b27b3
+2025-07-08 13:32:47.800: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:47.800: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'games'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'abort'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 1 from scratch
+
+2025-07-08 13:32:47.828: Request 1
+2025-07-08 13:32:47.828: Endpoint - /login/check
+2025-07-08 13:32:47.828: Hex Def - 12324c1af893a592141c04fbade7c88bde47561c
+2025-07-08 13:32:47.828: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:47.828: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: '/'
+		- restler_static_string: 'check'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 2 from scratch
+
+2025-07-08 13:32:47.867: Request 2
+2025-07-08 13:32:47.867: Endpoint - /signup/confirm
+2025-07-08 13:32:47.867: Hex Def - 126d6de1fd57aee6eb8039eac6aada35cd534340
+2025-07-08 13:32:47.867: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:47.867: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'signup'
+		- restler_static_string: '/'
+		- restler_static_string: 'confirm'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 3 from scratch
+
+2025-07-08 13:32:47.887: Request 3
+2025-07-08 13:32:47.887: Endpoint - /api/connect-four/games/{gameId}/move
+2025-07-08 13:32:47.887: Hex Def - 21df18125327e87880cd4fc69873e5f758666e12
+2025-07-08 13:32:47.887: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:47.887: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'games'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'move'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 4 from scratch
+
+2025-07-08 13:32:47.976: Request 4
+2025-07-08 13:32:47.976: Endpoint - /challenge/{id}
+2025-07-08 13:32:47.976: Hex Def - 2268b97be43978a5b8e6c87b0d98d61e4faa0921
+2025-07-08 13:32:47.976: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:47.976: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'challenge'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 5 from scratch
+
+2025-07-08 13:32:47.988: Request 5
+2025-07-08 13:32:47.988: Endpoint - /_fragment/connect-four/open-games
+2025-07-08 13:32:47.988: Hex Def - 33a3b19adafed90d82d5bb4b2fa157d251c32434
+2025-07-08 13:32:47.988: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:47.988: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: '_fragment'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'open-games'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 6 from scratch
+
+2025-07-08 13:32:48.005: Request 6
+2025-07-08 13:32:48.005: Endpoint - /signup/confirm
+2025-07-08 13:32:48.005: Hex Def - 35f92e491475d2bb374763a5b4ce628069bcab93
+2025-07-08 13:32:48.005: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.005: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'signup'
+		- restler_static_string: '/'
+		- restler_static_string: 'confirm'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 7 from scratch
+
+2025-07-08 13:32:48.021: Request 7
+2025-07-08 13:32:48.021: Endpoint - /api/chat/chats/{chatId}/write-message
+2025-07-08 13:32:48.021: Hex Def - 383bde9f71fc8083b0c17b742ce79f217c030256
+2025-07-08 13:32:48.021: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.021: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'chat'
+		- restler_static_string: '/'
+		- restler_static_string: 'chats'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'write-message'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 8 from scratch
+
+2025-07-08 13:32:48.052: Request 8
+2025-07-08 13:32:48.052: Endpoint - /challenge/{id}/accept
+2025-07-08 13:32:48.052: Hex Def - 39476a0eedbf6bed253603040e5be6b0c49a306e
+2025-07-08 13:32:48.052: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.052: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'challenge'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'accept'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 9 from scratch
+
+2025-07-08 13:32:48.079: Request 9
+2025-07-08 13:32:48.079: Endpoint - /signup
+2025-07-08 13:32:48.079: Hex Def - 3a9af7703ed52553e5c092d4cfec77ca3ea302cd
+2025-07-08 13:32:48.079: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.079: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'signup'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 10 from scratch
+
+2025-07-08 13:32:48.090: Request 10
+2025-07-08 13:32:48.090: Endpoint - /_fragment/connect-four/open
+2025-07-08 13:32:48.090: Hex Def - 4aa6335cc62e34671f4a12141d901e7be46d6c0d
+2025-07-08 13:32:48.090: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.090: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: '_fragment'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'open'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 11 from scratch
+
+2025-07-08 13:32:48.120: Request 11
+2025-07-08 13:32:48.120: Endpoint - /api/chat/chats/{chatId}/messages
+2025-07-08 13:32:48.120: Hex Def - 52cb3a95c11ab4aae074c1ab84ca648c61ffaf2a
+2025-07-08 13:32:48.120: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.120: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'chat'
+		- restler_static_string: '/'
+		- restler_static_string: 'chats'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'messages'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 12 from scratch
+
+2025-07-08 13:32:48.136: Request 12
+2025-07-08 13:32:48.136: Endpoint - /login/check-inbox
+2025-07-08 13:32:48.136: Hex Def - 716d4f7912701ba6fa251bf89cc1d0f5a8a25fb2
+2025-07-08 13:32:48.136: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.136: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: '/'
+		- restler_static_string: 'check-inbox'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 13 from scratch
+
+2025-07-08 13:32:48.142: Request 13
+2025-07-08 13:32:48.142: Endpoint - /api/server-time
+2025-07-08 13:32:48.142: Hex Def - 75c31b001d2a3ea42096434fa8673f4dc1ae5ae2
+2025-07-08 13:32:48.142: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.142: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'server-time'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 14 from scratch
+
+2025-07-08 13:32:48.158: Request 14
+2025-07-08 13:32:48.158: Endpoint - /signup/verify-email
+2025-07-08 13:32:48.158: Hex Def - 785c32bdbde18610e77cbe1e4b1f7adfb592df4e
+2025-07-08 13:32:48.158: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.158: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'signup'
+		- restler_static_string: '/'
+		- restler_static_string: 'verify-email'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 15 from scratch
+
+2025-07-08 13:32:48.169: Request 15
+2025-07-08 13:32:48.169: Endpoint - /_fragment/connect-four/statistics
+2025-07-08 13:32:48.169: Hex Def - 79050ec8b69da3999a8a1aa588b92f203b20aad2
+2025-07-08 13:32:48.169: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.169: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: '_fragment'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'statistics'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 16 from scratch
+
+2025-07-08 13:32:48.199: Request 16
+2025-07-08 13:32:48.199: Endpoint - /challenge/{id}/abort
+2025-07-08 13:32:48.199: Hex Def - ac5d121844b730479f74e6f5dda78f9bf35bacb5
+2025-07-08 13:32:48.199: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.199: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'challenge'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'abort'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 17 from scratch
+
+2025-07-08 13:32:48.215: Request 17
+2025-07-08 13:32:48.215: Endpoint - /api/connect-four/games/{gameId}/join
+2025-07-08 13:32:48.215: Hex Def - c49cb41058961865b67cfebff269869502015690
+2025-07-08 13:32:48.215: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.215: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'games'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'join'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 18 from scratch
+
+2025-07-08 13:32:48.225: Request 18
+2025-07-08 13:32:48.225: Endpoint - /_fragment/connect-four/player-search-filter
+2025-07-08 13:32:48.225: Hex Def - c5f240ebf6a9a9272b96beb3d417f5d21b1c7309
+2025-07-08 13:32:48.225: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.225: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: '_fragment'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'player-search-filter'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 19 from scratch
+
+2025-07-08 13:32:48.246: Request 19
+2025-07-08 13:32:48.246: Endpoint - /api/connect-four/games/open
+2025-07-08 13:32:48.246: Hex Def - cd0fedd628b1782ce38461ebf080cf0eb5b81acc
+2025-07-08 13:32:48.246: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.246: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'games'
+		- restler_static_string: '/'
+		- restler_static_string: 'open'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 20 from scratch
+
+2025-07-08 13:32:48.298: Request 20
+2025-07-08 13:32:48.298: Endpoint - /signup
+2025-07-08 13:32:48.298: Hex Def - ce2b7f057c451c146a7658b9a7c5499d6df7db36
+2025-07-08 13:32:48.298: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.298: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'signup'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 21 from scratch
+
+2025-07-08 13:32:48.324: Request 21
+2025-07-08 13:32:48.324: Endpoint - /game/{id}
+2025-07-08 13:32:48.324: Hex Def - d6132a1c2d4512624c3da4e6bc7ae017be3e330e
+2025-07-08 13:32:48.324: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.324: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'game'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 22 from scratch
+
+2025-07-08 13:32:48.425: Request 22
+2025-07-08 13:32:48.425: Endpoint - /profile
+2025-07-08 13:32:48.425: Hex Def - e5843c306d4990213f466e1a2f177f3baf15c831
+2025-07-08 13:32:48.425: Sequence length that satisfies dependencies: 1
+2025-07-08 13:32:48.425: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'profile'
+		- restler_static_string: '?'
+		- restler_static_string: 'state='
+		+ restler_fuzzable_group: ['all', 'finished', 'running', 'aborted']
+		- restler_static_string: '&'
+		- restler_static_string: 'page='
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 23 from scratch
+
+2025-07-08 13:33:18.586: Request 23
+2025-07-08 13:33:18.586: Endpoint - 
+2025-07-08 13:33:18.586: Hex Def - f030bbbd32966cde41037b98a8849c46b76e4bc1
+2025-07-08 13:33:18.586: Sequence length that satisfies dependencies: 1
+2025-07-08 13:33:18.586: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 24 from scratch
+
+2025-07-08 13:33:18.614: Request 24
+2025-07-08 13:33:18.614: Endpoint - /login
+2025-07-08 13:33:18.614: Hex Def - f80340774cd0c422e16943ad1496458bafd975b0
+2025-07-08 13:33:18.614: Sequence length that satisfies dependencies: 1
+2025-07-08 13:33:18.614: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 25 from scratch
+
+2025-07-08 13:33:18.631: Request 25
+2025-07-08 13:33:18.631: Endpoint - /api/connect-four/games/{gameId}/resign
+2025-07-08 13:33:18.631: Hex Def - fd542a81ea52cfa41b02cd57935a2770bf8c23fc
+2025-07-08 13:33:18.631: Sequence length that satisfies dependencies: 1
+2025-07-08 13:33:18.632: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'api'
+		- restler_static_string: '/'
+		- restler_static_string: 'connect-four'
+		- restler_static_string: '/'
+		- restler_static_string: 'games'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '/'
+		- restler_static_string: 'resign'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 26 from scratch
+
+2025-07-08 13:33:18.656: Request 26
+2025-07-08 13:33:18.656: Endpoint - /login
+2025-07-08 13:33:18.656: Hex Def - fec1a4c014ef66dc820f21ce197999778891552f
+2025-07-08 13:33:18.656: Sequence length that satisfies dependencies: 1
+2025-07-08 13:33:18.656: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2025-07-08 13:33:18.656: Generation: 1 / Sequences Collection Size: 7 
+(After directed-smoke-test Render)
+
+2025-07-08 13:33:18.656: Final Swagger spec coverage: 7 / 27
+2025-07-08 13:33:18.656: Rendered requests: 27 / 27
+2025-07-08 13:33:18.656: Rendered requests with "valid" status codes: 7 / 27
+2025-07-08 13:33:18.656: Num fully valid requests (no resource creation failures): 7
+2025-07-08 13:33:18.656: Num requests not rendered due to invalid sequence re-renders: 0
+2025-07-08 13:33:18.656: Num invalid requests caused by failed resource creations: 0
+2025-07-08 13:33:18.656: Total Creations of Dyn Objects: 0
+2025-07-08 13:33:18.656: Total Requests Sent: {'gc': 0, 'main_driver': 48}
+2025-07-08 13:33:18.656: Bug Buckets: {'main_driver_500': 6}
+
+Testing completed -- below are the final stats:
+
+2025-07-08 13:33:18.661: Final Swagger spec coverage: 7 / 27
+2025-07-08 13:33:18.661: Rendered requests: 27 / 27
+2025-07-08 13:33:18.661: Rendered requests with "valid" status codes: 7 / 27
+2025-07-08 13:33:18.661: Num fully valid requests (no resource creation failures): 7
+2025-07-08 13:33:18.661: Num requests not rendered due to invalid sequence re-renders: 0
+2025-07-08 13:33:18.661: Num invalid requests caused by failed resource creations: 0
+2025-07-08 13:33:18.661: Total Creations of Dyn Objects: 0
+2025-07-08 13:33:18.661: Total Requests Sent: {'gc': 0, 'main_driver': 48}
+2025-07-08 13:33:18.661: Bug Buckets: {'main_driver_500': 6}

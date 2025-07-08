@@ -1,0 +1,43 @@
+Restler Information: 0 : Starting task Test...
+    DateTime=2025-07-08T13:32:47.2458770Z
+Restler Information: 0 : Launching 'python --version'
+    DateTime=2025-07-08T13:32:47.6263181Z
+Restler Information: 0 : Launching 'python3 --version'
+    DateTime=2025-07-08T13:32:47.6264085Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0075508 with exit code 0x0: 'python3 --version'
+    DateTime=2025-07-08T13:32:47.6375084Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0076539 with exit code 0x0: 'python --version'
+    DateTime=2025-07-08T13:32:47.6375567Z
+Restler Information: 0 : (62) python3 --version exited with code: 0
+    DateTime=2025-07-08T13:32:47.6406192Z
+Restler Information: 0 : (63) python --version exited with code: 0
+    DateTime=2025-07-08T13:32:47.6406532Z
+Restler Information: 0 : Launching 'python3 -B "/RESTler/restler/../engine/restler.py" --restler_grammar "/restler_working_dir/Compile/grammar.py" --custom_mutations "/restler_working_dir/Compile/dict.json" --set_version 9.3.1    --no_ssl   --settings "/restler_working_dir/Compile/engine_settings.json"   --target_ip localhost --target_port 80 --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2025-07-08T13:32:47.6474547Z
+Restler Information: 0 : Process execution terminated in 00:00:31.0284548 with exit code 0x0: 'python3 -B "/RESTler/restler/../engine/restler.py" --restler_grammar "/restler_working_dir/Compile/grammar.py" --custom_mutations "/restler_working_dir/Compile/dict.json" --set_version 9.3.1    --no_ssl   --settings "/restler_working_dir/Compile/engine_settings.json"   --target_ip localhost --target_port 80 --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2025-07-08T13:33:18.6755879Z
+Restler Information: 0 : (69) python3 -B "/RESTler/restler/../engine/restler.py" --restler_grammar "/restler_working_dir/Compile/grammar.py" --custom_mutations "/restler_working_dir/Compile/dict.json" --set_version 9.3.1    --no_ssl   --settings "/restler_working_dir/Compile/engine_settings.json"   --target_ip localhost --target_port 80 --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test exited with code: 0
+    DateTime=2025-07-08T13:33:18.6757821Z
+Restler Information: 0 : Launching 'dotnet "/RESTler/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/restler_working_dir/Test" --output_dir "/restler_working_dir/Test/ResponseBuckets" --dictionary_file "/restler_working_dir/Compile/dict.json" --max_instances_per_bucket 10'
+    DateTime=2025-07-08T13:33:18.6811957Z
+Restler Information: 0 : Process execution terminated in 00:00:00.3667150 with exit code 0x0: 'dotnet "/RESTler/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/restler_working_dir/Test" --output_dir "/restler_working_dir/Test/ResponseBuckets" --dictionary_file "/restler_working_dir/Compile/dict.json" --max_instances_per_bucket 10'
+    DateTime=2025-07-08T13:33:19.0479666Z
+Restler Information: 0 : (77) dotnet "/RESTler/restler/../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "/restler_working_dir/Test" --output_dir "/restler_working_dir/Test/ResponseBuckets" --dictionary_file "/restler_working_dir/Compile/dict.json" --max_instances_per_bucket 10 exited with code: 0
+    DateTime=2025-07-08T13:33:19.0480958Z
+Restler Information: 0 : Request coverage (successful / total): 7 / 27
+    DateTime=2025-07-08T13:33:19.1061121Z
+Restler Information: 0 : Attempted requests: 27 / 27
+    DateTime=2025-07-08T13:33:19.1061474Z
+Restler Information: 0 : Bugs were found!
+    DateTime=2025-07-08T13:33:19.1076598Z
+Restler Information: 0 : Bug buckets:
+    DateTime=2025-07-08T13:33:19.1076748Z
+Restler Information: 0 : 
+main_driver_500: 6
+    DateTime=2025-07-08T13:33:19.1079482Z
+Restler Information: 0 : See 'coverage_failures_to_investigate.txt' to investigate API coverage.
+    DateTime=2025-07-08T13:33:19.1374152Z
+Restler Information: 0 : Task Test succeeded.
+    DateTime=2025-07-08T13:33:19.1383640Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2025-07-08T13:33:19.3213528Z

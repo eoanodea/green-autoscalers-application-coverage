@@ -145,8 +145,7 @@ run_restler_test() {
             --ip localhost \
             --port 80 && \
         echo 'RESTler completed, copying results...' && \
-        cp -r /restler_working_dir/ /data/ 2>/dev/null || \
-        "
+        cp -r /restler_working_dir/ /data/ 2>/dev/null || echo 'Warning: No results found in /restler_working_dir'"
     
     print_success "RESTler test completed"
 }

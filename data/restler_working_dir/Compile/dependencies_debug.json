@@ -1,0 +1,418 @@
+[
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/api/chat/chats/{chatId}/messages",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "chatId",
+            "pathToParameter": [
+              "api",
+              "chat",
+              "chats"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "chats",
+        "PathContainerName": "messages",
+        "CandidateTypeNames": [
+          "chat"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "chatId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/api/chat/chats/{chatId}/write-message",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "chatId",
+            "pathToParameter": [
+              "api",
+              "chat",
+              "chats"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "chats",
+        "PathContainerName": "write-message",
+        "CandidateTypeNames": [
+          "chat"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "chatId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/api/connect-four/games/{gameId}/abort",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "gameId",
+            "pathToParameter": [
+              "api",
+              "connect-four",
+              "games"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "games",
+        "PathContainerName": "abort",
+        "CandidateTypeNames": [
+          "game"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "gameId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/api/connect-four/games/{gameId}/join",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "gameId",
+            "pathToParameter": [
+              "api",
+              "connect-four",
+              "games"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "games",
+        "PathContainerName": "join",
+        "CandidateTypeNames": [
+          "game"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "gameId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/api/connect-four/games/{gameId}/move",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "gameId",
+            "pathToParameter": [
+              "api",
+              "connect-four",
+              "games"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "games",
+        "PathContainerName": "move",
+        "CandidateTypeNames": [
+          "game"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "gameId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/api/connect-four/games/{gameId}/resign",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "gameId",
+            "pathToParameter": [
+              "api",
+              "connect-four",
+              "games"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "games",
+        "PathContainerName": "resign",
+        "CandidateTypeNames": [
+          "game"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "gameId",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/challenge/{id}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "id",
+            "pathToParameter": [
+              "challenge"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "challenge",
+        "PathContainerName": "challenge",
+        "CandidateTypeNames": [
+          "challenge"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/challenge/{id}/abort",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "id",
+            "pathToParameter": [
+              "challenge"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "challenge",
+        "PathContainerName": "abort",
+        "CandidateTypeNames": [
+          "challenge"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/challenge/{id}/accept",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "id",
+            "pathToParameter": [
+              "challenge"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "challenge",
+        "PathContainerName": "accept",
+        "CandidateTypeNames": [
+          "challenge"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/game/{id}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "id",
+            "pathToParameter": [
+              "game"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "game",
+        "PathContainerName": "game",
+        "CandidateTypeNames": [
+          "game"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "id",
+        "ProducerParameterName": "id",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/profile",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "state"
+        },
+        "ContainerName": "profile",
+        "PathContainerName": "profile",
+        "CandidateTypeNames": [
+          "profile"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "state",
+        "ProducerParameterName": "state",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": {
+          "Enum": [
+            "state",
+            "String",
+            [
+              "all",
+              "finished",
+              "running",
+              "aborted"
+            ],
+            "all"
+          ]
+        }
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/profile",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "QueryResource": "page"
+        },
+        "ContainerName": "profile",
+        "PathContainerName": "profile",
+        "CandidateTypeNames": [
+          "profile"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "page",
+        "ProducerParameterName": "page",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "Int"
+      },
+      "parameterKind": "Query"
+    }
+  }
+]

@@ -1,0 +1,687 @@
+{
+  "403": {
+    "d6d5dd81-d23b-41ce-baa6-c6e878df7b03": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/login",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/login",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/open",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/open",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/challenge/fuzzstring/abort",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/challenge/fuzzstring/abort",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/signup",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/signup",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/challenge/fuzzstring/accept",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/challenge/fuzzstring/accept",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "1963\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Internal server error | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, a server error occurred!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but our server encountered an internal error.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  },
+  "404": {
+    "11b2257a-840a-41c5-a504-c39e8038065f": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/statistics",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "d6\r\n<pe-include src=\"/_fragment/connect-four/statistics\"\n                             delay=\"3581\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/statistics",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "d6\r\n<pe-include src=\"/_fragment/connect-four/statistics\"\n                             delay=\"3279\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/open",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "d0\r\n<pe-include src=\"/_fragment/connect-four/open\"\n                             delay=\"3142\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/open",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "d0\r\n<pe-include src=\"/_fragment/connect-four/open\"\n                             delay=\"3270\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/open-games",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "d6\r\n<pe-include src=\"/_fragment/connect-four/open-games\"\n                             delay=\"4748\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/open-games",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "d6\r\n<pe-include src=\"/_fragment/connect-four/open-games\"\n                             delay=\"4201\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "59b09ff6-e2a8-46af-b24a-fb054182edb0": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/game/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "195d\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Page not found | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, the page was not found!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but the page you are looking for was not found.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/game/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "195d\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Page not found | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, the page was not found!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but the page you are looking for was not found.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/challenge/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "195d\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Page not found | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, the page was not found!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but the page you are looking for was not found.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/challenge/fuzzstring",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "195d\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Page not found | Gaming Platform</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"/>\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/icon/apple-touch-icon.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icon/favicon-32x32.png\"/>\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icon/favicon-16x16.png\"/>\n    <link rel=\"manifest\" href=\"/icon/site.webmanifest\"/>\n    <link rel=\"mask-icon\" href=\"/icon/safari-pinned-tab.svg\" color=\"#427280\"/>\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\"/>\n    <meta name=\"theme-color\" content=\"#ffffff\"/>\n    <script>if(!HTMLScriptElement.supports||!HTMLScriptElement.supports(\\'importmap\\')){let t=document.createElement(\\'script\\');t.setAttribute(\\'async\\',\\'\\');t.setAttribute(\\'src\\',\\'https://ga.jspm.io/npm:es-module-shims@1.8.0/dist/es-module-shims.js\\');document.currentScript.replaceWith(t)}</script>\n    \n<link rel=\"stylesheet\" href=\"/assets/vendor/@tabler/core/dist/css/tabler.min-DRtDCkA.css\">\n<link rel=\"stylesheet\" href=\"/assets/css/app-rlLtaOX.css\">\n<script type=\"importmap\">\n{\n    \"imports\": {\n        \"app\": \"/assets/js/app-TH46A25.js\",\n        \"/assets/js/Common/HttpClient.js\": \"/assets/js/Common/HttpClient-RqJxUpE.js\",\n        \"/assets/js/Common/NotificationList.js\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"@tabler/core/dist/css/tabler.min.css\": \"data:application/javascript,\",\n        \"/assets/css/app.css\": \"data:application/javascript,\",\n        \"uhtml/node.js\": \"/assets/vendor/uhtml/node-MueNYvG.js\",\n        \"notification-list\": \"/assets/js/Common/NotificationList-LGQu3LL.js\",\n        \"event-source-status\": \"/assets/js/Common/EventSourceStatus-kRqan00.js\",\n        \"/assets/js/Common/EventSource.js\": \"/assets/js/Common/EventSource-0xzRhV5.js\",\n        \"confirmation-button\": \"/assets/js/Common/ConfirmationButton-gXSDOkz.js\",\n        \"chat-widget\": \"/assets/js/Chat/Widget-NY0pNo3.js\",\n        \"/assets/js/Chat/ChatService.js\": \"/assets/js/Chat/ChatService-0BKQXpv.js\",\n        \"connect-four-redirect\": \"/assets/js/ConnectFour/Redirect-COWMZ2g.js\",\n        \"/assets/js/ConnectFour/GameService.js\": \"/assets/js/ConnectFour/GameService-GPt6HZh.js\",\n        \"connect-four-running-games\": \"/assets/js/ConnectFour/RunningGames-GSPx7Xh.js\",\n        \"connect-four-game-list\": \"/assets/js/ConnectFour/GameList-zseX0IG.js\",\n        \"connect-four-game\": \"/assets/js/ConnectFour/Game-v9FGxOt.js\",\n        \"/assets/js/ConnectFour/Model/Game.js\": \"/assets/js/ConnectFour/Model/Game-DB6sEik.js\",\n        \"connect-four-player-status\": \"/assets/js/ConnectFour/PlayerStatus-21P5_G0.js\",\n        \"connect-four-timer\": \"/assets/js/ConnectFour/Timer-kzN-cyY.js\",\n        \"/assets/js/Common/ServerTime.js\": \"/assets/js/Common/ServerTime-gu6Buam.js\",\n        \"connect-four-abort-button\": \"/assets/js/ConnectFour/AbortButton-smnphtN.js\",\n        \"connect-four-resign-button\": \"/assets/js/ConnectFour/ResignButton-573ZOH8.js\"\n    }\n}\n</script>\n<link rel=\"modulepreload\" href=\"/assets/js/app-TH46A25.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/HttpClient-RqJxUpE.js\">\n<link rel=\"modulepreload\" href=\"/assets/js/Common/NotificationList-LGQu3LL.js\">\n<link rel=\"modulepreload\" href=\"/assets/vendor/uhtml/node-MueNYvG.js\">\n<script type=\"module\">import \\'app\\';</script>\n    <script type=\"module\" src=\"/assets/js/pe-N96W5b9.js\"></script>\n    <script>window.matchMedia(\"(prefers-color-scheme:dark)\").matches && document.documentElement.setAttribute(\\'data-bs-theme\\', \\'dark\\');</script>\n</head>\n<body>\n<notification-list></notification-list>\n    <div class=\"page page-center\" data-page-content>\n        <div class=\"container container-tight\">\n            <p class=\"text-center fw-medium my-5\">\n                <a href=\"/\" class=\"link-secondary navbar-brand-autodark text-decoration-none\">\n                    <img src=\"/assets/img/logo-OMo8iH6.png\"\n                         alt=\"Gaming Platform\"\n                         width=\"32\"\n                         height=\"32\"\n                         class=\"navbar-brand-image pe-2\"/>\n                    Gaming Platform\n                </a>\n            </p>\n                                        <div class=\"card card-md\">\n        <div class=\"card-body\">\n            <h2 class=\"text-center mb-4\">Oops, the page was not found!</h2>\n            <p class=\"text-center\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                     stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                     class=\"icon icon-md\">\n                    <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>\n                    <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/>\n                    <path d=\"M9 10l.01 0\"/>\n                    <path d=\"M15 10l.01 0\"/>\n                    <path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/>\n                </svg>\n            </p>\n            <p class=\"text-center\">\n                We are sorry, but the page you are looking for was not found.\n            </p>\n            <p class=\"text-center\">\n                <a href=\"/\" class=\"btn btn-primary\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"\n                         stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\n                         class=\"icon\">\n                        <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n                        <path d=\"M5 12l14 0\"></path>\n                        <path d=\"M5 12l6 6\"></path>\n                        <path d=\"M5 12l6 -6\"></path>\n                    </svg>\n                    Take me home\n                </a>\n            </p>\n        </div>\n    </div>\n            <ul class=\"text-center list-inline list-inline-dots my-5\">\n                <li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Contact Us\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Terms & Conditions\n    </a>\n</li>\n<li class=\"list-inline-item\">\n    <a href=\"/\"\n       target=\"_blank\"\n       class=\"link-secondary\"\n       rel=\"noopener\">\n        Imprint\n    </a>\n</li>\n            </ul>\n        </div>\n    </div>\n</body>\n</html>\n\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "afb0622d-36c2-442d-9b47-55d501e4dcfb": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/api/chat/chats/fuzzstring/messages",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "1d\r\n{\"message\":\" Chat Not Found\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/api/chat/chats/fuzzstring/messages",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "1d\r\n{\"message\":\" Chat Not Found\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "bfc8f62f-a5c7-4541-9317-71ee545a827e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/player-search-filter",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "e0\r\n<pe-include src=\"/_fragment/connect-four/player-search-filter\"\n                             delay=\"4401\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/_fragment/connect-four/player-search-filter",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 404,
+            "codeDescription": "Not Found",
+            "content": "e0\r\n<pe-include src=\"/_fragment/connect-four/player-search-filter\"\n                             delay=\"3985\">\n                    <span class=\"spinner-border spinner-border-sm\" role=\"status\"></span>\n                </pe-include>\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  },
+  "500": {
+    "296ff560-2bc4-4703-8ff2-597e5807ceac": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/resign",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/resign",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/resign",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/join",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/join",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/join",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/chat/chats/fuzzstring/write-message",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/chat/chats/fuzzstring/write-message",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/chat/chats/fuzzstring/write-message",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/api/connect-four/games/fuzzstring/move",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "21\r\n{\"message\":\" Access Denied Http\"}\r\n0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      }
+    ],
+    "6cc4ba74-227b-4c4b-aa4b-782319109f6b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "0\r\n\r\n",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      }
+    ]
+  }
+}
