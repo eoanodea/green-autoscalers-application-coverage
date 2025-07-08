@@ -45,7 +45,7 @@ This repository provides an automated setup script that:
    - Press Enter to continue
 
 4. **View results:**
-   Results will be available in the `data/` directory after completion.
+   Results will be available in the `data/restler_working_dir` directory after completion.
 
 ### Command Options
 
