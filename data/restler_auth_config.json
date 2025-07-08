@@ -1,0 +1,14 @@
+{
+    "restler_custom_payload": {
+        "authentication": {
+            "session_cookie": "PHPSESSID=2ecd0fafdd9395426c80e37416445dfe"
+        }
+    },
+    "custom_mutations": {
+        "headers": {
+            "Cookie": [
+                "PHPSESSID=2ecd0fafdd9395426c80e37416445dfe"
+            ]
+        }
+    }
+}

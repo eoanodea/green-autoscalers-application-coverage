@@ -1,0 +1,29 @@
+{
+    "max_combinations": 20,
+    "max_request_execution_time": 120,
+    "max_sequence_length": 100,
+    "target_ip": "localhost",
+    "target_port": 80,
+    "custom_mutations": {
+        "headers": {
+            "Content-Type": [
+                "application/json"
+            ],
+            "Accept": [
+                "application/json",
+                "text/html"
+            ],
+            "Cookie": [
+                "PHPSESSID=2ecd0fafdd9395426c80e37416445dfe"
+            ]
+        }
+    },
+    "checkers": {
+        "useafterfree": {
+            "mode": "exhaustive"
+        },
+        "leakage": {
+            "mode": "normal"
+        }
+    }
+}
